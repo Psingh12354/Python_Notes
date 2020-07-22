@@ -1,22 +1,35 @@
 <h1 align=center><b> Python Notes</b></h1>
-Python Map:
-Python map() function is used to apply a function on all the elements of specified iterable and return map object
-Syntax:
+
+## Python Map:
+
+ **Python map()** function is used to apply a function on all the elements of specified iterable and return map object
+### Syntax:
+```
 map(function, iterable, ...)
-Split() :
-split() method returns a list of strings after breaking the given string by the specified separator. ... The string splits at this specified separator. If is not provided then any white space is a separator. maxsplit : It is a number, which tells us to split the string into maximum of provided number of times
-Sorted :
-The sorted() function returns a sorted list of the specified iterable object.
+```
+### Split() :
+
+**split()** method returns a list of strings after breaking the given string by the specified separator. ... The string splits at this specified separator. If is not provided then any white space is a separator. maxsplit : It is a number, which tells us to split the string into maximum of provided number of times
+
+### Sorted :
+The **sorted()** function returns a sorted list of the specified iterable object.
 You can specify ascending or descending order. Strings are sorted alphabetically, and numbers are sorted numerically.
-Note: You cannot sort a list that contains BOTH string values AND numeric values.
-Syntax :
+
+**Note:** You cannot sort a list that contains BOTH string values AND numeric values.
+
+### Syntax :
+```
 sorted(iterable, key=key, reverse=reverse)
-Set :
+```
+### Set :
 A set is a collection which is unordered and unindexed. In Python sets are written with curly brackets.
-Example
-Create a Set:
+**Example**
+
+### Create a Set:
+```
 thisset = {"apple", "banana", "cherry"}
-Python tuples: Introduction
+```
+**Python tuples:** Introduction
 Just like Python list, tuples are also the sequence of comma-separated values enclosed in parentheses instead of square brackets. The parentheses are optional though.
 Syntax: 
 py_tuple = (1,2,'a','b','Hello')
